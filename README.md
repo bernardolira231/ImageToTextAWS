@@ -5,13 +5,13 @@ Bernardo Lira Ramírez de Aguilar  --  Vista<br>
 
 # Project 2 - Procesamiento de Imágenes y Texto
 
-Este proyecto permite cargar imágenes, extraer texto de ellas utilizando el modelo de lenguaje GPT-3 de Hugging Face y mostrar los resultados en una interfaz web.
+Este proyecto permite cargar imágenes, analizar lo que se muestra en la imagen utilizando el modelo de lenguaje GIT (GenerativeImage2Text) de Hugging Face y mostrar los resultados en una interfaz web.
 
 ## Requisitos
 
 - PHP 7.0 o superior
 - Servidor web (por ejemplo, Apache)
-- Token de autorización de Hugging Face para usar el modelo GPT-3
+- Token de autorización de Hugging Face para usar el modelo GIT
 
 ## Configuración
 
@@ -31,7 +31,7 @@ Este proyecto permite cargar imágenes, extraer texto de ellas utilizando el mod
 
 2. Accede a la aplicación a través de un navegador web visitando la URL del servidor.
 
-3. En la página principal, puedes cargar una imagen haciendo clic en "Selecciona una imagen". La aplicación subirá la imagen y mostrará el texto extraído utilizando el modelo GPT-3.
+3. En la página principal, puedes cargar una imagen haciendo clic en "Selecciona una imagen". La aplicación subirá la imagen y mostrará el texto extraído utilizando el modelo GIT.
 
 4. Si deseas procesar varias imágenes, simplemente carga más imágenes una tras otra.
 
