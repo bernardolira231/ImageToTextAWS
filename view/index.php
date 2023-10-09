@@ -10,38 +10,10 @@
 </head>
 <body>
     <?php
-        function imageToText($API_URL, $token, $filename){
-
-            $headers = array(
-                "Authorization: Bearer $token"
-            );
-
-            $data = file_get_contents($filename);
-
-            $ch = curl_init($API_URL);
-            curl_setopt($ch, CURLOPT_POST, 1);
-            curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
-            curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
-            curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-
-            $response = curl_exec($ch);
-
-            if($response === false) {
-                echo 'Error al realizar la solicitud: ' . curl_error($ch);
-            } else {
-                $json_response = json_decode($response, true);
-                #print_r($json_response);
-                echo $json_response[0]['generated_text'];
-            }
-
-            curl_close($ch);
-        }
-
-
+        require_once('../controller/controller.php');
 
         $API_URL = "https://api-inference.huggingface.co/models/microsoft/git-large-coco";
         $token = "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"; // Tu token de autorización
-        // $filename = glob($carpeta_destino . 'imagen_*.*');
     ?>
     <div class="container">
         <h1 class="mb-4">Cargar y Mostrar Imagen</h1>
@@ -74,14 +46,15 @@
             } else {
                 echo '<p class="text-danger">Hubo un error al subir la imagen.</p>';
             }
-        }
-        // Obtiene la lista de archivos en la carpeta después de subir una nueva imagen
-        $archivos = glob($carpeta_destino . 'imagen_*.*');
+                    // Obtiene la lista de archivos en la carpeta después de subir una nueva imagen
+            $archivos = glob($carpeta_destino . 'imagen_*.*');
         
-        foreach ($archivos as $archivo) {
-            // echo "<h2>Texto extraído de $archivo:</h2>";
-            imageToText($API_URL, $token, $archivo);
+            foreach ($archivos as $archivo) {
+                // echo "<h2>Texto extraído de $archivo:</h2>";
+                imageToText($API_URL, $token, $archivo);
+            }
         }
+
         ?>
             <div class="mb-3 mt-3">
                 <button type="submit" class="btn btn-primary">Subir Imagen</button>
