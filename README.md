@@ -1,3 +1,8 @@
+Gilberto Hernández Quintero
+Guillermo González González
+Eric Garibo García
+Bernardo Lira Ramírez de Aguilar
+
 # Pasos para Abrir el Servidor PHP
 
 A continuación, se describen los pasos para abrir un servidor PHP en tu computadora:
