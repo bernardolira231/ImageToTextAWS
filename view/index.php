@@ -10,7 +10,7 @@
 </head>
 <body>
 
-    <div class="container mt-5">
+    <div class="container">
         <h1 class="mb-4">Cargar y Mostrar Imagen</h1>
         <!-- Formulario para cargar la imagen -->
         <form enctype="multipart/form-data" method="post">
@@ -18,12 +18,7 @@
                 <label for="imagen" class="form-label">Selecciona una imagen:</label>
                 <input type="file" class="form-control" id="imagen" name="imagen" accept="image/*">
             </div>
-            <div class="mb-3">
-                <button type="submit" class="btn btn-primary">Subir Imagen</button>
-            </div>
-        </form>
-        <!-- Procesar la imagen cargada -->
-        <?php
+            <?php
         if ($_FILES && isset($_FILES['imagen'])) {
             $imagen = $_FILES['imagen'];
             $imagen_tmp = $imagen['tmp_name'];
@@ -48,8 +43,13 @@
             }
         }
         ?>
+            <div class="mb-3 mt-3">
+                <button type="submit" class="btn btn-primary">Subir Imagen</button>
+            </div>
+        </form>
+        <!-- Procesar la imagen cargada -->
+        
     </div>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
 </body>
 </html>

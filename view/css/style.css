@@ -1,5 +1,5 @@
 body {
-    background-color: #f8f9fa;
+    background-color: #dddcdc;
 }
 .container {
     background-color: #ffffff;
@@ -9,6 +9,7 @@ body {
     max-width: 600px;
     margin: 0 auto;
     text-align: center;
+    margin-top: 12rem;
 }
 .btn-primary {
     background-color: #007bff;
