@@ -9,7 +9,8 @@ body {
     max-width: 600px;
     margin: 0 auto;
     text-align: center;
-    margin-top: 12rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
 }
 .btn-primary {
     background-color: #007bff;
