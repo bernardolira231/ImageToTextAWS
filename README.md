@@ -1,7 +1,7 @@
-Gilberto Hernández Quintero<br>
-Guillermo González González<br>
-Eric Garibo García<br>
-Bernardo Lira Ramírez de Aguilar<br>
+Gilberto Hernández Quintero  --  Modelo<br>
+Guillermo González González  --  Conexión al API (Controlador)<br>
+Eric Garibo García  --  Implementación del sitio web en la Instancia EC2<br>
+Bernardo Lira Ramírez de Aguilar  --  Vista<br>
 
 # Pasos para Abrir el Servidor PHP
 
