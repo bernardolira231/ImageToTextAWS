@@ -1,7 +1,7 @@
-###Gilberto Hernández Quintero
-###Guillermo González González
-###Eric Garibo García
-###Bernardo Lira Ramírez de Aguilar
+Gilberto Hernández Quintero<br>
+Guillermo González González<br>
+Eric Garibo García<br>
+Bernardo Lira Ramírez de Aguilar<br>
 
 # Pasos para Abrir el Servidor PHP
 
