@@ -41,4 +41,5 @@ Este proyecto permite cargar imágenes, analizar lo que se muestra en la imagen 
 - `functions.php`: Archivo que contiene la función `imageToText` para procesar las imágenes y extraer el texto.
 - `css/style.css`: Archivo CSS para estilizar la interfaz web.
 
-http://44.202.246.72
+## Entrar a esta web para probar proyecto (Recordar que cada 4 horas cambia esta ip)
+http://44.201.129.165
