@@ -7,8 +7,8 @@ use Aws\S3\S3Client;
 $s3 = new S3Client([
     'region'      => 'us-east-1', // Change this to your desired AWS region
     'credentials' => [
-        'key'    => 'ASIAZAW7QOU622ENTKHT',
-        'secret' => 'sDL8YSfO7S1aDtR37cLxVFlGNokqoy4ODWzXmhjk',
+        'key'    => '',
+        'secret' => '',
     ],
 ]);
 
