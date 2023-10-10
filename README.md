@@ -40,3 +40,5 @@ Este proyecto permite cargar imágenes, analizar lo que se muestra en la imagen 
 - `index.php`: Página principal de la aplicación que muestra el formulario de carga de imágenes y el resultado de la extracción de texto.
 - `functions.php`: Archivo que contiene la función `imageToText` para procesar las imágenes y extraer el texto.
 - `css/style.css`: Archivo CSS para estilizar la interfaz web.
+
+http://44.202.246.72
