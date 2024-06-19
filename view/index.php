@@ -11,9 +11,10 @@
 <body>
     <?php
         require_once('../controller/controller.php');
+        
 
         $API_URL = "https://api-inference.huggingface.co/models/microsoft/git-large-coco";
-        $token = "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"; // Tu token de autorización
+        $token = ""; // Tu token de autorización
     ?>
     <div class="container">
         <h1 class="mb-4">Cargar y Mostrar Imagen</h1>
